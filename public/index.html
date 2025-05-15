@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Consultoria ambiental especializada em soluções sustentáveis."
+    />
+    <meta
+      name="keywords"
+      content="consultoria ambiental, sustentabilidade, licenciamento ambiental, gestão de resíduos, conformidade ambiental"
+    />
+    <meta property="og:title" content="BioAmbiente Consultoria Ambiental" />
+    <meta
+      property="og:description"
+      content="Consultoria ambiental focada em sustentabilidade com responsabilidade."
+    />
+    <meta property="og:image" content="https://bioambiente-consultoria.web.app/images/thumb.png" />
+    <meta
+      property="og:url"
+      content="https://bioambiente-consultoria.web.app/"
+    />
+    <meta property="og:type" content="website" />
+
+    <title>BioAmbiente Consultoria Ambiental</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Estilos e ícones -->
+    <link rel="stylesheet" href="./styles/cores.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsivo.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./images/reciclar-simbolo.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="menu-container">
+        <button
+          class="menu-toggle"
+          onclick="toggleMenu()"
+          aria-label="Abrir ou fechar o menu de navegação"
+          aria-controls="navMenu"
+          aria-expanded="false"
+        >
+          ☰ MENU
+        </button>
+        <nav class="nav-menu" id="navMenu">
+          <a href="#">Home</a>
+          <a href="#sobre">Sobre Nós</a>
+          <a href="#servicos">Serviços</a>
+          <!-- <a href="#">Portifólio</a> -->
+          <a href="#formulario">Formulário</a>
+        </nav>
+      </div>
+      <div class="tudo-exceto-header-servicos-footer">
+        <header>
+          <a href="#"
+            ><img
+              src="./images/bioambiente-logo-principal.png"
+              alt="Logo da BioAmbiente Consultoria Ambiental"
+          /></a>
+          <h1>Soluções ambientais inteligentes para um futuro sustentável</h1>
+          <div class="whatsapp-container-header">
+            <a
+              href="https://wa.me/5513992127120?text=Olá!%20Gostaria%20de%20mais%20informações."
+              target="_blank"
+              class="btn-whatsapp-header"
+            >
+              <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
+            </a>
+          </div>
+        </header>
+
+        <section class="secao-principal fundo-balao-secao-principal" id="home">
+          <h1>
+            Transformando espaços urbanos, rurais e industriais com projetos
+            ambientais inteligentes e soluções sustentáveis. <br />
+            <a href="#formulario"
+              ><button
+                class="botao-secao-principal"
+                aria-label="Botão para entrar em contato conosco"
+              >
+                Fale conosco
+              </button></a
+            >
+          </h1>
+          <ul class="bloco-secao-principal">
+            <li>
+              <img
+                src="./images/icons/plant-based.png"
+                alt="Ícone Proteja sua empresa"
+                class="icone-personalizado-home"
+              />
+              Proteja sua empresa e o meio ambiente com soluções ambientais
+              especializadas.
+            </li>
+            <li>
+              <img
+                src="./images/icons/ingredients.png"
+                alt="Ícone Empresas de todos os portes"
+                class="icone-personalizado-home"
+              />
+              Consultoria e assessoria ambiental para empresas de todos os
+              portes.
+            </li>
+            <li>
+              <img
+                src="./images/icons/nlp.png"
+                alt="Ícone Evite multas e sanções"
+                class="icone-personalizado-home"
+              />
+              Evite multas e sanções: assegure a conformidade com a legislação
+              ambiental e proteja o seu orçamento e suas operações.
+            </li>
+            <li>
+              <img
+                src="./images/icons/natural-ingredients.png"
+                alt="Ícone Responsabilidade ambiental"
+                class="icone-personalizado-home"
+              />
+              Fortaleça sua reputação: demonstre responsabilidade ambiental e
+              conquiste a confiança de clientes, parceiros e da comunidade.
+            </li>
+            <li>
+              <img
+                src="./images/icons/earthquake.png"
+                alt="Ícone Gerencie riscos"
+                class="icone-personalizado-home"
+              />
+              Gerencie riscos de forma inteligente: identificamos e mitigamos
+              riscos ambientais para proteger seus negócios e o meio ambiente.
+            </li>
+            <li>
+              <img
+                src="./images/icons/100-percent.png"
+                alt="Ícone Conformidade"
+                class="icone-personalizado-home"
+              />
+              Facilite processos regulatórios: garanta conformidade e agilize a
+              obtenção de licenças e autorizações essenciais para o seu
+              empreendimento.
+            </li>
+          </ul>
+        </section>
+        <section class="sobre fundo-balao-secao-sobre" id="sobre">
+          <h1>
+            Aqui nos empenhamos em oferecer soluções inovadoras e eficientes
+            para os desafios ambientais.
+          </h1>
+          <div class="cards-container">
+            <div class="card">
+              <h3>
+                <img
+                  src="./images/icons/bio.png"
+                  alt="Ícone Missão"
+                  class="icone-personalizado"
+                />Missão
+              </h3>
+              <p class="card-content">
+                Auxiliar empresas a atingirem a conformidade com a legislação
+                ambiental, promovendo a implementação de práticas sustentáveis
+                que contribuam para a preservação do meio ambiente.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>
+                <img
+                  src="./images/icons/leaf.png"
+                  alt="Ícone Visão"
+                  class="icone-personalizado"
+                />Visão
+              </h3>
+              <p class="card-content">
+                Aspiramos a nos tornar referência em consultoria ambiental,
+                destacando-nos pela excelência em nosso atendimento e pelo
+                impacto positivo que geramos nas práticas sustentáveis de nossos
+                clientes.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>
+                <img
+                  src="./images/icons/save-the-world.png"
+                  alt="Ícone Valores"
+                  class="icone-personalizado"
+                />Valores
+              </h3>
+              <p class="card-content">
+                Trabalhamos com integridade, inovação e um compromisso
+                inabalável com a sustentabilidade, oferecendo soluções
+                personalizadas que atendam às necessidades específicas de cada
+                cliente. Nossa equipe é composta por profissionais altamente
+                qualificados, com sólida formação acadêmica e treinamento
+                especializado.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>
+                <img
+                  src="./images/icons/organic.png"
+                  alt="Ícone Nosso Diferencial"
+                  class="icone-personalizado"
+                />Nosso Diferencial
+              </h3>
+              <p class="card-content">
+                O que nos torna únicos é o atendimento personalizado, com
+                soluções ajustadas às necessidades específicas de cada cliente.
+                Estamos comprometidos em estabelecer uma parceria de confiança
+                que assegure um serviço dedicado e eficaz, sempre focado em
+                alcançar os objetivos ambientais de sua empresa.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="background-servicos">
+        <section class="servicos fundo-balao-secao-servicos" id="servicos">
+          <h1>Nossos serviços</h1>
+          <div class="grid-servicos">
+            <div class="bloco-servico">
+              <div>
+                <h3>Licenciamento Ambiental</h3>
+                <p>
+                  Apoio completo para atender às exigências legais no
+                  licenciamento ambiental.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico">
+              <div>
+                <h3>Gestão de Resíduos Sólidos (PGRS, CADRI)</h3>
+                <p>
+                  Planejamento e controle de resíduos sólidos, com apoio na
+                  elaboração de PGRS e CADRI.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico">
+              <div>
+                <h3>Sistemas SIGOR, SINIR (CETESB), MTR, CDF</h3>
+                <p>
+                  Implantação e gestão de sistemas obrigatórios para
+                  conformidade ambiental.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico">
+              <div>
+                <h3>CTF/APP, RAPP, Certificado de Regularidade (IBAMA)</h3>
+                <p>
+                  Suporte para regularização e cumprimento das obrigações
+                  ambientais junto ao IBAMA.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico">
+              <div>
+                <h3>Gestão Ambiental</h3>
+                <p>
+                  Estratégias para uso consciente de recursos e redução de
+                  impactos ambientais.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico">
+              <div>
+                <h3>Consultoria/Assessoria Ambiental</h3>
+                <p>
+                  Orientação especializada para garantir conformidade ambiental
+                  e práticas sustentáveis.
+                </p>
+              </div>
+            </div>
+
+            <div class="bloco-servico bloco-central">
+              <div>
+                <h3>Elaboração de Relatórios Técnicos</h3>
+                <p>
+                  Relatórios técnicos precisos, baseados em estudos ambientais e
+                  exigências legais.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--<section class="portifolio">PORTIFOLIO ESCONDE</section>
+  TALVEZ SEJA LEGAL LEVAR A UMA PAGINA SÓ DISSO, AI POSSO ESCONDER ENQUANTO N TEM ND -->
+      </div>
+      <div class="imagem-final-pagina">
+        <section class="formulario" id="formulario">
+          <h1>
+            Precisa de uma consultoria ambiental? <br />
+            Estamos prontos para te ajudar.
+          </h1>
+          <div class="flex-formulario">
+            <div class="formulario-textos">
+              <ul>
+                <li>
+                  Entre em contato conosco! <br />
+                  Agende uma visita técnica ou tire suas dúvidas pelos nossos
+                  canais de atendimento.
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/plant.png"
+                    alt="Ícone Plantinha verde"
+                    class="icone-personalizado"
+                  />Contato:<br />
+                  (13)99212-7120 ou
+                  <a
+                    href="https://wa.me/5513992127120?text=Olá!%20Gostaria%20de%20mais%20informações."
+                    target="_blank"
+                    class="btn-whatsapp"
+                  >
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/plant.png"
+                    alt="Ícone Plantinha verde"
+                    class="icone-personalizado"
+                  />Horário de Atendimento:<br />
+                  De segunda a sexta-feira: 8h às 18h <br />
+                  Aos sábados: 8h às 12h
+                </li>
+                <li>
+                  Estamos prontos para oferecer suporte completo e ajudá-lo a
+                  alcançar seus objetivos ambientais de forma eficiente e
+                  sustentável.
+                </li>
+              </ul>
+            </div>
+
+            <form
+              id="formulario-contato"
+              action="https://formsubmit.co/bioambient@hotmail.com"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+
+              <div class="campo-formulario">
+                <label for="name" class="required">Nome:</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  class="input"
+                  placeholder="Digite seu nome"
+                  required
+                />
+                <span id="name_validation"></span>
+              </div>
+
+              <div class="campo-formulario">
+                <label for="email" class="required">Email:</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="input"
+                  placeholder="Digite seu email"
+                  required
+                />
+                <span id="email_validation"></span>
+              </div>
+
+              <div class="campo-formulario">
+                <label for="message" class="required">Mensagem:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="7"
+                  class="input"
+                  placeholder="Escreva sua mensagem"
+                  required
+                ></textarea>
+                <span id="message_validation"></span>
+              </div>
+
+              <div class="botao-formulario">
+                <button
+                  type="submit"
+                  id="submit_button"
+                  aria-label="Botão de envio do formulário de contato"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+            <div id="mensagem-obrigado">
+              <p>
+                Obrigado pela mensagem!<br />Entraremos em contato em breve.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Contato formulario e coisas clicaveis -->
+        <footer>
+          <div class="footer-content">
+            <h3>Siga nas redes:</h3>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/bioambiente_consultoria/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <p class="footer-redes">© 2025 Todos os direitos reservados.</p>
+            <p class="footer-creditos">
+              Desenvolvido por Isabelah Campos
+              <a
+                href="https://www.linkedin.com/in/isabelah-campos/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>

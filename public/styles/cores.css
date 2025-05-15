@@ -1,0 +1,28 @@
+:root {
+    /* Cores principais */
+    --verde-claro: #d4f5a0;
+    --verde-medio-claro: #a4e87a;
+    --verde-medio: #aee167;
+    --verde-forte: #95d737;
+    --verde-escuro: #165218;
+    --verde-profundo: #124514;
+  
+    /* Cores complementares */
+    --branco: #ffffff;
+    --preto-transparente: rgba(0, 0, 0, 0.2);
+    --preto-transparente-leve: rgba(0, 0, 0, 0.3);
+    --preto-transparente-forte: rgba(0, 0, 0, 0.4);
+    --branco-transparente: rgba(255, 255, 255, 0.06);
+    --branco-transparente-iluminado: rgba(255, 255, 255, 0.2);
+    --branco-transparente-forte: rgba(255, 255, 255, 0.1);
+    --verde-transparente: rgba(149, 215, 55, 0.4);
+    --verde-transparente-leve: rgba(149, 215, 55, 0.2);
+    --verde-transparente-medio: rgba(149, 215, 55, 0.6);
+  
+    /* WhatsApp */
+    --verde-whatsapp: #25d366;
+    --verde-whatsapp-hover: #1ebe5d;
+  }
+  
+
+  

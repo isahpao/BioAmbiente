@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "bioambienteconsultambiental",
+    "Implantação do site BioAmbiente": "bioambiente-consultoria",
+    "bioambiente": "bioambiente-consultoria"
+  },
+  "targets": {},
+  "etags": {}
+}
