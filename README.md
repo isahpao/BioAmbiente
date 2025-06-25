@@ -51,15 +51,18 @@ Para testar o projeto localmente, siga os passos abaixo:
 
 ### **1️⃣ Clone o repositório**
 
-bash
+```bash
 git clone https://github.com/isahpao/BioAmbiente
 
+```
 
 ### **2️⃣ Acesse a pasta do projeto**
 
-bash
+```bash
 
 cd BioAmbiente
+
+```
 
 ### **3️⃣ Execute o projeto**
 
