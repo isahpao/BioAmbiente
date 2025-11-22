@@ -391,7 +391,7 @@ header img {
   backdrop-filter: blur(4px);
   border-radius: 20px;
   box-shadow: 0 4px 12px var(--preto-transparente-forte);
-  padding: 15px;
+  padding: 30px;
   margin: 20px auto;
 }
 
@@ -459,6 +459,7 @@ label {
   color: var(--branco);
   font-weight: bold;
   padding: 9px 24px;
+  margin: 7px;
   border-radius: 30px;
   font-size: 16px;
   box-shadow: 0 4px 12px var(--preto-transparente);
@@ -518,4 +519,24 @@ footer .social-icons a:focus {
 :focus {
   outline: 1px solid var(--verde-escuro);
   outline-offset: 1px;
+}
+
+.footer-links {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links span {
+  color: #ccc;
 }
